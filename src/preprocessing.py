@@ -38,7 +38,7 @@ def load_and_merge_data():
     merged = status.merge(users, on="CitizenID", how="left")
     merged = merged.merge(locations, on="CitizenID", how="left")
 
-    # Optional: drop duplicates, handle missing values
+    # drop duplicates, handle missing values
     merged = merged.drop_duplicates(subset=["CitizenID"])
     merged = merged.fillna("Unknown")
 
