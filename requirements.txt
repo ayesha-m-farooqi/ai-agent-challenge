@@ -1,0 +1,6 @@
+langchain 
+langchain-community
+groq
+langfuse
+pandas
+numpy
