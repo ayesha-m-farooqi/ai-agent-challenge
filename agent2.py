@@ -40,7 +40,7 @@ client = init_langfuse_client()
 llm = ChatOpenAI(
     model="moonshotai/kimi-k2-instruct-0905",
     temperature=0,
-    api_key="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",
+    api_key="API_KEY",
     base_url="https://api.groq.com/openai/v1",
 )
 
