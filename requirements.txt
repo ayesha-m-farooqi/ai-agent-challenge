@@ -1,6 +1,7 @@
-langchain 
-langchain-community
-groq
-langfuse
-pandas
-numpy
+langchain==0.2.0
+langchain-community==0.2.0
+groq==0.5.0
+langfuse==2.0.0
+pandas==2.2.2
+numpy==1.26.4
+
